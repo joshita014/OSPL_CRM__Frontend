@@ -1,13 +1,9 @@
-import SignIn from "../SignIn";
-import SignUp from "../SignUp";
-import Dashboard from "../Dashboard";
+import Router from "../../routers/Router";
 
 const Home = () => {
   return (
     <>
-      <SignIn />
-      <SignUp />
-      <Dashboard />
+        <Router />
     </>
   );
 };
